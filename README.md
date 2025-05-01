@@ -1,41 +1,107 @@
-# FullStack Test
+<<<<<<< HEAD
+# 🛍️ Test Técnica - App de Pagos con Wompi
 
-Este es el repositorio para la prueba técnica  FullStack. El proyecto incluye un backend API en NestJS y un frontend en React.js, con integración de pago utilizando, manejo de productos y stock, y un flujo de pago con tarjeta de crédito.
+Este proyecto es una solución FullStack que permite realizar compras en línea usando la pasarela de pagos Wompi. Incluye un backend con NestJS y PostgreSQL, y un frontend en React con pruebas, resumen de compra y entrega simulada.
 
-## Descripción
+## 🚀 Enlaces de despliegue (Railway)
 
-### Funcionalidades principales:
-1. **Página de productos**: Muestra productos y stock disponible.
-2. **Modal de pago**: El usuario puede ingresar datos de tarjeta de crédito y de entrega.
-3. **Resumen de pago**: Muestra el resumen antes de completar la transacción.
-4. **Estado de la transacción**: Muestra si el pago fue exitoso o fallido.
-5. **Actualización de stock**: Una vez completado el pago, el stock del producto se actualiza.
+- 🔗 Frontend: https://test-paula-frontend.up.railway.app
+- 🔗 Backend: https://test-paula-backend.up.railway.app
 
-### Tecnologías usadas:
-- **Backend**: NestJS, PostgreSQL, TypeORM
-- **Frontend**: React.js, Redux Toolkit, Jest (para tests)
-- **Pago**: Integración con API (Sandbox)
-- **Despliegue**: AWS (S3 + CloudFront para el frontend, EC2 o Lambda para el backend)
-  
-## Estructura del Proyecto
+> Puedes probar la app directamente accediendo al frontend, seleccionando un producto y completando el formulario de pago simulado.
 
-- `/frontend`: Código del frontend en React.js.
-- `/backend`: Código del backend en NestJS.
-  
-## Pasos para ejecutar el proyecto
+---
 
-### Backend:
-1. Clonar el repositorio.
-2. Ir al directorio `backend`.
-3. Instalar dependencias:
-   ```bash
-   npm install
-4. Configurar las credenciales de PostgreSQL en el archivo .env.
-5. Ejecutar el servidor: npm run start
+## 🧰 Tecnologías usadas
 
-### frontend:
-1. Clonar el repositorio.
-2. Ir al directorio frontend.
-3. Instalar dependencias: npm install
-4. Ejecutar el servidor: npm start
+**Frontend:**
+- React
+- React Modal
+- React Scripts / Vite
+- Testing Library (Jest + React Testing Library)
 
+**Backend:**
+- NestJS
+- PostgreSQL
+- TypeORM
+- Node Fetch (para simular conexión a Wompi)
+
+**DevOps:**
+- Railway (para despliegue)
+- GitHub (repositorio)
+
+---
+
+## 📦 Instalación local
+
+```bash
+# Clonar el repositorio
+https://github.com/PaulaZambrano27/test-paula.git
+
+# Instalar dependencias
+cd backend
+npm install
+cd ../frontend
+npm install
+```
+
+### 🔧 Ejecutar el backend localmente
+```bash
+cd backend
+npm run start:dev
+```
+
+### 🖥️ Ejecutar el frontend localmente
+```bash
+cd frontend
+npm start
+```
+
+---
+
+## 🧪 Testing
+
+```bash
+# Desde el frontend
+npm test
+```
+
+Esto ejecutará tres pruebas básicas:
+1. Renderizado del título
+2. Renderizado de productos
+3. Apertura del modal de pago
+
+✅ Todas las pruebas pasan exitosamente.
+
+---
+
+## 🧾 Funcionalidades principales
+
+- Listado de productos (simulados desde backend)
+- Modal con formulario de compra
+- Detección de tipo de tarjeta (Visa/Mastercard)
+- Cálculo de tarifas (Wompi + Envío)
+- Simulación de transacciones, clientes y entregas
+- Alerta final con resumen y estado de entrega
+
+---
+
+## 🧪 Consideraciones técnicas
+
+- El backend simula respuestas de Wompi.
+- No se usan datos reales de tarjeta.
+- La lógica de transacción, envío y cliente se almacena en PostgreSQL.
+- Railway hace despliegue automático desde GitHub.
+
+---
+
+## 👩‍💻 Autora
+
+**Paula Andrea Zambrano**
+
+[GitHub](https://github.com/PaulaZambrano27)
+
+---
+
+¡Gracias por revisar esta prueba técnica!
+>>>>>>>>>>>>>>>>>>>>
