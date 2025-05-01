@@ -86,35 +86,12 @@ Esto ejecutará tres pruebas básicas:
 
 ---
 
-## ⚙️ Instrucciones para evaluadores
-
-1. Accede al frontend desde este enlace: https://test-paula-frontend.up.railway.app
-2. Visualiza los productos disponibles.
-3. Haz clic en "Comprar" sobre cualquiera de ellos.
-4. Rellena el formulario con datos simulados y envía.
-5. Verás un resumen de compra y una simulación de estado de entrega.
-
-Puedes revisar el backend accediendo directamente o clonar el proyecto desde GitHub.
-
----
-
 ## 🧪 Consideraciones técnicas
 
 - El backend simula respuestas de Wompi.
 - No se usan datos reales de tarjeta.
 - La lógica de transacción, envío y cliente se almacena en PostgreSQL.
 - Railway hace despliegue automático desde GitHub.
-
----
-
-## 🌱 Posibles mejoras futuras
-
-- Validación del número de tarjeta con regex y enmascaramiento
-- Integración real con API de Wompi (modo producción)
-- Autenticación de usuario y manejo de historial de compras
-- Administración de productos desde un panel privado
-- Implementación de Docker para contenedores
-- Pruebas E2E (End to End) con Cypress o similar
 
 ---
 
