@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # 🛍️ Test Técnica - App de Pagos con Wompi
 
 Este proyecto es una solución FullStack que permite realizar compras en línea usando la pasarela de pagos Wompi. Incluye un backend con NestJS y PostgreSQL, y un frontend en React con pruebas, resumen de compra y entrega simulada.
@@ -97,12 +97,9 @@ Esto ejecutará tres pruebas básicas:
 
 ## 👩‍💻 Autora
 
-**Paula Zambrano**
+**Paula Andrea Zambrano**
 
 [GitHub](https://github.com/PaulaZambrano27)
 
 ---
-
 ¡Gracias por revisar esta prueba técnica!
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
