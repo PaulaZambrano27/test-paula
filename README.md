@@ -74,6 +74,13 @@ Esto ejecutará tres pruebas básicas:
 ✅ Todas las pruebas pasan exitosamente.
 
 ---
+## 🚀 Enlaces de despliegue
+
+🔗 Frontend (Railway): https://test-paula-frontend.up.railway.app
+
+🔗 Frontend (Vercel): https://test-paula-bo66.vercel.app
+
+🔗 Backend (Railway): https://test-paula-backend.up.railway.app
 
 ## 🧾 Funcionalidades principales
 
