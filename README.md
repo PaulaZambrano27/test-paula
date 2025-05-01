@@ -6,7 +6,9 @@ Este proyecto es una solución FullStack que permite realizar compras en línea 
 ## 🚀 Enlaces de despliegue (Railway)
 
 - 🔗 Frontend: https://test-paula-frontend.up.railway.app
-- 🔗 Backend: https://test-paula-backend.up.railway.ap
+- 🔗 Backend: https://test-paula-backend.up.railway.app
+
+> Puedes probar la app directamente accediendo al frontend, seleccionando un producto y completando el formulario de pago simulado.
 
 ---
 
@@ -72,13 +74,6 @@ Esto ejecutará tres pruebas básicas:
 ✅ Todas las pruebas pasan exitosamente.
 
 ---
-## 🚀 Enlaces de despliegue
-
-🔗 Frontend (Railway): https://test-paula-frontend.up.railway.app
-
-🔗 Frontend (Vercel): https://test-paula-bo66.vercel.app
-
-🔗 Backend (Railway): https://test-paula-backend.up.railway.app
 
 ## 🧾 Funcionalidades principales
 
